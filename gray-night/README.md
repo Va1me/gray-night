@@ -1,4 +1,4 @@
-# front
+# gray-night
 
 ## Project setup
 ```

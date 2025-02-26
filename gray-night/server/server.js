@@ -10,4 +10,4 @@ app.listen(app.get('port'), () => {
 })
 
 app.use('/api/records', require('./routes/records'));
-app.use('/', express.static(path.join(__dirname, '../front/dist')));
+app.use('/', express.static(path.join(__dirname, '../dist')));

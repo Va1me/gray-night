@@ -3,9 +3,8 @@ const router = express.Router();
 const connection = require("../app/models/Record");
  
 router.get('/', async (req, res) => {
-   const donate = 'Wither'
    connection.query(`SELECT * FROM donates`, (err, result) => {
-      res.send(result[0].donateName)
+      res.send(result)
     })
 });
  
