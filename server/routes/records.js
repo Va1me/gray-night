@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const connection = require("../app/models/Record");
+// const connection = require("../app/models/Record");
  
 router.get('/', async (req, res) => {
    connection.query(`SELECT * FROM donates`, (err, result) => {
