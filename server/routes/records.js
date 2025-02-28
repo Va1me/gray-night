@@ -3,9 +3,10 @@ const router = express.Router();
 // const connection = require("../app/models/Record");
  
 router.get('/', async (req, res) => {
-   connection.query(`SELECT * FROM donates`, (err, result) => {
-      res.send(result)
-    })
+   // connection.query(`SELECT * FROM donates`, (err, result) => {
+   //    res.send(result)
+   //  })
+   res.send(3245352)
 });
  
 router.post('/', async (req, res) => {
