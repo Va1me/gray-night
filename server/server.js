@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 // const mysql = require("mysql2");
-const connection = require('./app/models/Record')
+// const connection = require('./app/models/Record')
 
 app.set('port', 3000);
 app.listen(app.get('port'), () => {
